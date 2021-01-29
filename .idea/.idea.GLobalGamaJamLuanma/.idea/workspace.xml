@@ -20,8 +20,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShadowSprite.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShadowPool.cs" />
-      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" />
       <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/CharacterMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EventCenter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SingeCaseBase.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nkAMFOzKvjdE9tZAYddGdjxMME" />
@@ -63,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611923669643</updated>
-      <workItem from="1611923693625" duration="7044000" />
+      <workItem from="1611923693625" duration="9069000" />
     </task>
     <servers />
   </component>

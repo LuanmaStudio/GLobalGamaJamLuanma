@@ -12,7 +12,10 @@ namespace ECM.Examples
     {
 
         private Animator _animator;
-        
+
+        public float DashInterval = 1f;
+
+        private float LastTime;
         private void Start()
         {
             _animator = GetComponentInChildren<Animator>();
@@ -90,10 +93,17 @@ namespace ECM.Examples
         {
             transform.position = new Vector3(transform.position.x, transform.position.y);
             base.Update();
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+
+
+            if (Time.time > LastTime)
             {
-                movement.Dash();
+                if (Input.GetKeyDown(KeyCode.LeftShift))
+                {
+                    movement.Dash();
+                    LastTime = Time.time + DashInterval;
+                }
             }
+
         }
         
     }
