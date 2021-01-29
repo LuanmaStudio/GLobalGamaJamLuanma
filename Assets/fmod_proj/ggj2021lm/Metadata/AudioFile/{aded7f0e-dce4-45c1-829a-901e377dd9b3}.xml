@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{aded7f0e-dce4-45c1-829a-901e377dd9b3}">
+		<property name="assetPath">
+			<value>player/KSHMR_Game_FX_32_Teleport.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.188344671201814</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8005e88b-058b-449d-8c8d-db7c38cb6a1f}</destination>
+		</relationship>
+	</object>
+</objects>
