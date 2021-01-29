@@ -657,6 +657,11 @@ namespace ECM.Controllers
             movement.DisableGrounding();
         }
 
+        void Dash()
+        {
+            
+        }
+
         /// <summary>
         /// Perform variable jump height logic.
         /// </summary>
@@ -776,6 +781,8 @@ namespace ECM.Controllers
             // move without acceleration / deceleration, let the animation takes full control
 
             var desiredVelocity = CalcDesiredVelocity();
+            
+            
 
             if (useRootMotion && applyRootMotion)
                 movement.Move(desiredVelocity, speed, !allowVerticalMovement);

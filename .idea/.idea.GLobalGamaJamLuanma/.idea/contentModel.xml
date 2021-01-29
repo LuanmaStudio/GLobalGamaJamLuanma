@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Administrator\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_GLobalGamaJamLuanma.-2131087740.00" t="ExcludeRecursive" />
+    <e p="E:\GlobalGameJamLuanma\GLobalGamaJamLuanma" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AllIn1SpriteShader" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="All1ShaderDemoController.cs" t="Include" />
+              <e p="All1TextureOffsetOverTime.cs" t="Include" />
+              <e p="AllIn1ScrollProperty.cs" t="Include" />
+              <e p="Demo2AutoScroll.cs" t="Include" />
+              <e p="DemoCamera.cs" t="Include" />
+              <e p="DemoCircleExpositor.cs" t="Include" />
+              <e p="DemoItem.cs" t="Include" />
+              <e p="DemoRandomColorSwap.cs" t="Include" />
+              <e p="DemoRepositionExpositor.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="AllIn1ShaderScriptEditor.cs" t="Include" />
+            <e p="AllIn1SpriteShader.cs" t="Include" />
+            <e p="AllIn1SpriteShaderStencil.cs" t="Include" />
+            <e p="AllIn1UrpShader.cs" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="AllIn1OneShaderFunctions.cginc" t="Include" />
+            <e p="AllIn1SpriteShader.shader" t="Include" />
+            <e p="AllIn1SpriteShaderScaledTime.shader" t="Include" />
+            <e p="AllIn1SpriteShaderUiMask.shader" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="All1CreateUnifiedOutline.cs" t="Include" />
+            <e p="AllIn1Shader.cs" t="Include" />
+            <e p="AllIn1ShaderWindow.cs" t="Include" />
+            <e p="RandomSeed.cs" t="Include" />
+            <e p="SetAtlasUvs.cs" t="Include" />
+            <e p="SetGlobalTime.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Demigiant" t="Include">
+          <e p="DemiLib" t="Include">
+            <e p="Core" t="Include">
+              <e p="DemiLib.xml" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="DemiEditor.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="DOTween" t="Include">
+            <e p="Modules" t="Include">
+              <e p="DOTweenModuleAudio.cs" t="Include" />
+              <e p="DOTweenModulePhysics.cs" t="Include" />
+              <e p="DOTweenModulePhysics2D.cs" t="Include" />
+              <e p="DOTweenModuleSprite.cs" t="Include" />
+              <e p="DOTweenModuleUI.cs" t="Include" />
+              <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+              <e p="DOTweenModuleUtils.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="DOTweenPro" t="Include">
+            <e p="DOTweenAnimation.cs" t="Include" />
+            <e p="DOTweenProShortcuts.cs" t="Include" />
+            <e p="DOTweenTextMeshPro.cs" t="Include" />
+            <e p="DOTweenTk2d.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="DOTweenAnimationInspector.cs" t="Include" />
+              <e p="DOTweenPreviewManager.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Easy Character Movement" t="Include">
+          <e p="Examples" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Common" t="Include">
+                <e p="Utils.cs" t="Include" />
+              </e>
+              <e p="Components" t="Include">
+                <e p="CrouchingModelScaler.cs" t="Include" />
+                <e p="KinematicMove.cs" t="Include" />
+                <e p="KinematicRotate.cs" t="Include" />
+              </e>
+              <e p="Controllers" t="Include">
+                <e p="CharacterController2D.cs" t="Include" />
+                <e p="CustomAgentController.cs" t="Include" />
+                <e p="CustomCharacterController.cs" t="Include" />
+                <e p="DemoController.cs" t="Include" />
+                <e p="EthanAgentController.cs" t="Include" />
+                <e p="EthanCharacterController.cs" t="Include" />
+                <e p="EthanPlatformerController.cs" t="Include" />
+                <e p="FollowCameraController.cs" t="Include" />
+                <e p="FPS_CustomController.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="@Obsolete" t="Include">
+              <e p="BoxGroundDetection.cs" t="Include" />
+              <e p="OrientModelToGround.cs" t="Include" />
+              <e p="RaycastGroundDetection.cs" t="Include" />
+              <e p="SphereGroundDetection.cs" t="Include" />
+            </e>
+            <e p="Common" t="Include">
+              <e p="Extensions.cs" t="Include" />
+              <e p="MathLibrary.cs" t="Include" />
+            </e>
+            <e p="Components" t="Include">
+              <e p="CharacterMovement.cs" t="Include" />
+              <e p="GroundDetection" t="Include">
+                <e p="BaseGroundDetection.cs" t="Include" />
+                <e p="GroundDetection.cs" t="Include" />
+                <e p="GroundHit.cs" t="Include" />
+              </e>
+              <e p="MouseLook.cs" t="Include" />
+            </e>
+            <e p="Controllers" t="Include">
+              <e p="BaseAgentController.cs" t="Include" />
+              <e p="BaseCharacterController.cs" t="Include" />
+              <e p="BaseFirstPersonController.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="ECMMenu.cs" t="Include" />
+            </e>
+            <e p="Helpers" t="Include">
+              <e p="RootMotionController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Walkthrough" t="Include">
+            <e p="1 - Custom Character Controller" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="10 - Wall Grab and Wall Jump" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+                <e p="OneWayPlatform.cs" t="Include" />
+              </e>
+            </e>
+            <e p="11 - Flying" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="12 - Swimming" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="13 - Over The Shoulder Camera Movement" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+                <e p="OverShoulderCameraController.cs" t="Include" />
+                <e p="PreventCameraWallClip.cs" t="Include" />
+              </e>
+            </e>
+            <e p="14 - Visualize walkable ground" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MeshAnalysis.cs" t="Include" />
+              </e>
+            </e>
+            <e p="15 - Ladder Climbing" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Ladder.cs" t="Include" />
+                <e p="MyCharacterController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="2 - Custom Input" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="3 - Movement Relative To Camera" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="4 - Custom Rotation (tank like rotation)" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="5 - Crouching (FPS)" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="6 - Fall Damage" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="7 - Toggle Gravity Direction" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+              </e>
+            </e>
+            <e p="8 - Orient Towards Ground Normals" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MyCharacterController.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="fmod_proj" t="Include">
+          <e p="ggj2021lm" t="Include">
+            <e p="Metadata" t="Include">
+              <e p="Asset" t="Include">
+                <e p="{8005e88b-058b-449d-8c8d-db7c38cb6a1f}.xml" t="Include" />
+              </e>
+              <e p="Bank" t="Include">
+                <e p="{c3d8c2fb-bac5-4b5c-be2a-cd8c9ce012d2}.xml" t="Include" />
+                <e p="{dbeee0db-11fb-4141-ae0c-513e0049b0d3}.xml" t="Include" />
+              </e>
+              <e p="BankFolder" t="Include">
+                <e p="{c33a00b7-7c30-4745-805d-4e0217f3fc48}.xml" t="Include" />
+              </e>
+              <e p="EffectPresetFolder" t="Include">
+                <e p="{cd320be0-4b03-4bb2-b18c-5564f04edc36}.xml" t="Include" />
+              </e>
+              <e p="EncodingSetting" t="Include">
+                <e p="{88abe264-73c5-4ffa-a947-f85c5cda7700}.xml" t="Include" />
+              </e>
+              <e p="EventFolder" t="Include">
+                <e p="{561bac8b-d2be-4a6b-9909-2437418cc509}.xml" t="Include" />
+              </e>
+              <e p="Master.xml" t="Include" />
+              <e p="Mixer.xml" t="Include" />
+              <e p="ParameterPresetFolder" t="Include">
+                <e p="{00d784ce-63d2-4c35-a2df-a3d603691576}.xml" t="Include" />
+              </e>
+              <e p="Platform" t="Include">
+                <e p="{83eea834-fa1b-4769-ad5c-3fe7f6ed91a5}.xml" t="Include" />
+              </e>
+              <e p="ProfilerFolder" t="Include">
+                <e p="{eb3b7c9e-0556-49f2-8723-72ae1f1cef57}.xml" t="Include" />
+              </e>
+              <e p="Return" t="Include">
+                <e p="{7b480d8b-8f21-4961-8642-fa9549d6ff0a}.xml" t="Include" />
+              </e>
+              <e p="SandboxFolder" t="Include">
+                <e p="{90644239-0cf4-48a9-b4ba-9f4d8e8310f7}.xml" t="Include" />
+              </e>
+              <e p="SnapshotGroup" t="Include">
+                <e p="{c9ebd748-e9e7-41ad-8f22-d3bb299adbbf}.xml" t="Include" />
+              </e>
+              <e p="Tags.xml" t="Include" />
+              <e p="Workspace.xml" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="FMOD" t="Include">
+            <e p="addons" t="Include">
+              <e p="ResonanceAudio" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="FmodResonanceAudioRoomEditor.cs" t="Include" />
+                  <e p="FMODUnityResonanceEditor.asmdef" t="Include" />
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="FmodResonanceAudio.cs" t="Include" />
+                  <e p="FmodResonanceAudioRoom.cs" t="Include" />
+                  <e p="FMODUnityResonance.asmdef" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="FMODUnity.asmdef" t="Include" />
+            <e p="platforms" t="Include">
+              <e p="android" t="Include">
+                <e p="src" t="Include">
+                  <e p="PlatformAndroid.cs" t="Include" />
+                </e>
+              </e>
+              <e p="html5" t="Include">
+                <e p="src" t="Include">
+                  <e p="PlatformWebGL.cs" t="Include" />
+                </e>
+              </e>
+              <e p="ios" t="Include">
+                <e p="src" t="Include">
+                  <e p="PlatformIOS.cs" t="Include" />
+                </e>
+              </e>
+              <e p="linux" t="Include">
+                <e p="src" t="Include">
+                  <e p="PlatformLinux.cs" t="Include" />
+                </e>
+              </e>
+              <e p="mac" t="Include">
+                <e p="src" t="Include">
+                  <e p="PlatformMac.cs" t="Include" />
+                </e>
+              </e>
+              <e p="tvos" t="Include">
+                <e p="src" t="Include">
+                  <e p="PlatformAppleTV.cs" t="Include" />
+                </e>
+              </e>
+              <e p="win" t="Include">
+                <e p="src" t="Include">
+                  <e p="PlatformWindows.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="src" t="Include">
+              <e p="Editor" t="Include">
+                <e p="BankRefDrawer.cs" t="Include" />
+                <e p="BoltIntegration.cs" t="Include" />
+                <e p="CreateEventPopup.cs" t="Include" />
+                <e p="EditorBankRef.cs" t="Include" />
+                <e p="EditorEventRef.cs" t="Include" />
+                <e p="EditorParamRef.cs" t="Include" />
+                <e p="EditorUtils.cs" t="Include" />
+                <e p="EventBrowser.cs" t="Include" />
+                <e p="EventCache.cs" t="Include" />
+                <e p="EventManager.cs" t="Include" />
+                <e p="EventRefDrawer.cs" t="Include" />
+                <e p="FindAndReplace.cs" t="Include" />
+                <e p="FMODUnityEditor.asmdef" t="Include" />
+                <e p="LogViewer.cs" t="Include" />
+                <e p="ParamRefDrawer.cs" t="Include" />
+                <e p="SettingsEditor.cs" t="Include" />
+                <e p="StudioBankLoaderEditor.cs" t="Include" />
+                <e p="StudioEventEmitterEditor.cs" t="Include" />
+                <e p="StudioEventEmitterGizmoDrawer.cs" t="Include" />
+                <e p="StudioGlobalParameterTriggerEditor.cs" t="Include" />
+                <e p="StudioListenerEditor.cs" t="Include" />
+                <e p="StudioParameterTriggerEditor.cs" t="Include" />
+                <e p="Timeline" t="Include">
+                  <e p="FMODEventPlayableEditor.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="BankRefAttribute.cs" t="Include" />
+                <e p="CodeGeneration.cs" t="Include" />
+                <e p="EventHandler.cs" t="Include" />
+                <e p="EventRefAttribute.cs" t="Include" />
+                <e p="FMODRuntimeManagerOnGUIHelper.cs" t="Include" />
+                <e p="ParamRef.cs" t="Include" />
+                <e p="ParamRefAttribute.cs" t="Include" />
+                <e p="Platform.cs" t="Include" />
+                <e p="PlatformDefault.cs" t="Include" />
+                <e p="PlatformGroup.cs" t="Include" />
+                <e p="PlatformMobileHigh.cs" t="Include" />
+                <e p="PlatformMobileLow.cs" t="Include" />
+                <e p="PlatformPlayInEditor.cs" t="Include" />
+                <e p="RuntimeManager.cs" t="Include" />
+                <e p="RuntimeUtils.cs" t="Include" />
+                <e p="Settings.cs" t="Include" />
+                <e p="StudioBankLoader.cs" t="Include" />
+                <e p="StudioEventEmitter.cs" t="Include" />
+                <e p="StudioGlobalParameterTrigger.cs" t="Include" />
+                <e p="StudioListener.cs" t="Include" />
+                <e p="StudioParameterTrigger.cs" t="Include" />
+                <e p="Timeline" t="Include">
+                  <e p="FMODEventPlayable.cs" t="Include" />
+                  <e p="FMODEventTrack.cs" t="Include" />
+                </e>
+                <e p="wrapper" t="Include">
+                  <e p="fmod.cs" t="Include" />
+                  <e p="fmod_dsp.cs" t="Include" />
+                  <e p="fmod_errors.cs" t="Include" />
+                  <e p="fmod_studio.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Dialog.cs" t="Include" />
+          <e p="ShadowPool.cs" t="Include" />
+          <e p="ShadowSprite.cs" t="Include" />
+          <e p="WordsAnalyze.cs" t="Include" />
+        </e>
+        <e p="Text" t="Include">
+          <e p="test.txt" t="Include" />
+        </e>
+      </e>
+      <e p="FMODUnity.csproj" t="IncludeRecursive" />
+      <e p="FMODUnityEditor.csproj" t="IncludeRecursive" />
+      <e p="FMODUnityResonance.csproj" t="IncludeRecursive" />
+      <e p="FMODUnityResonanceEditor.csproj" t="IncludeRecursive" />
+      <e p="GLobalGamaJamLuanma.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

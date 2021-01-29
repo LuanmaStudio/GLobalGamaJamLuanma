@@ -1,4 +1,5 @@
-﻿using ECM.Controllers;
+﻿using System;
+using ECM.Controllers;
 using UnityEngine;
 
 namespace ECM.Examples
@@ -9,14 +10,23 @@ namespace ECM.Examples
 
     public class CharacterController2D : BaseCharacterController
     {
+
+        private Animator _animator;
+        
+        private void Start()
+        {
+            _animator = GetComponentInChildren<Animator>();
+        }
         /// <summary>
         /// Overrides BaseCharacterController Animate method.
         /// </summary>
 
         protected override void Animate()
         {
-            // Add your character animator related code here...
+            _animator.SetFloat("Speed",movement.forwardSpeed);
         }
+
+        
 
         /// <summary>
         /// Overrides BaseCharacterController HandleInput method. 
@@ -42,6 +52,7 @@ namespace ECM.Examples
             jump = Input.GetButton("Jump");
 
             crouch = Input.GetKey(KeyCode.C);
+            
         }
 
         /// <summary>
@@ -74,5 +85,16 @@ namespace ECM.Examples
             if (rb)
                 rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionZ;
         }
+
+        public override void Update()
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y);
+            base.Update();
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                movement.Dash();
+            }
+        }
+        
     }
 }

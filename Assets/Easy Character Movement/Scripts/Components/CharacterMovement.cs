@@ -1,6 +1,7 @@
 ﻿using ECM.Common;
 using System;
 using System.Collections;
+using DG.Tweening;
 using UnityEngine;
 
 namespace ECM.Components
@@ -671,7 +672,34 @@ namespace ECM.Components
 
             return OverlappedColliders;
         }
+        
+        //玩家冲刺
+        public void Dash()
+        {
+            GetComponent<Rigidbody>().velocity += transform.forward * 100;
+            StartCoroutine(DashAnimation());
+        }
 
+        IEnumerator DashAnimation()
+        {
+            float dashTimeLeft = 0.15f;
+
+            while (true)
+            {
+                ShadowPool.instance.GetFormPool();
+                dashTimeLeft -= 0.02f;
+
+                if (dashTimeLeft < 0)
+                {
+                    dashTimeLeft = 0.3f;
+                    break;
+                }
+                yield return new WaitForSeconds(0.05f);
+                
+                
+            }
+        }
+        
         /// <summary>
         /// Will check for clearance above the character up to the given clearanceHeight.
         /// Returns true if is clear above character, otherwise false.
