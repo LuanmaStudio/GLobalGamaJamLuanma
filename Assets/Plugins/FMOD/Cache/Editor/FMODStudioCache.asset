@@ -43,7 +43,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 1336639885024191544}
+  - {fileID: -3546652075106089670}
   MinDistance: 0
   MaxDistance: 0
   Length: 69333
@@ -214,7 +214,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6486091630885895129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,7 +489,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 637476048625226535
+  lastModified: 637476361842033564
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -559,6 +559,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-3546652075106089670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TitleMusic/TitleMusicLowpass
+  m_EditorClassIdentifier: 
+  Name: TitleMusicLowpass
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-3433687275082212240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -898,7 +918,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/System.bank
   Name: System
   StudioPath: bank:/System
-  lastModified: 637475743111206424
+  lastModified: 637476361843888589
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1062,7 +1082,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637476048625031334
+  lastModified: 637476361837999737
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1135,7 +1155,7 @@ MonoBehaviour:
   - {fileID: -128906993826834028}
   StringsBanks:
   - {fileID: 4051383230982580632}
-  stringsBankWriteTime: 637476048625041094
+  stringsBankWriteTime: 637476361838159301
   cacheVersion: 6
 --- !u!114 &25354572215885174
 MonoBehaviour:
@@ -1288,7 +1308,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &1459254106962970409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1373,7 +1393,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637476048625216768
+  lastModified: 637476361839157144
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1645,7 +1665,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637476048625041094
+  lastModified: 637476361838159301
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1671,7 +1691,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6714586968683558424}
+  - {fileID: 7072706097497887599}
   MinDistance: 0
   MaxDistance: 0
   Length: 106666
@@ -1757,7 +1777,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Boss.bank
   Name: Boss
   StudioPath: bank:/Boss
-  lastModified: 637475933408457661
+  lastModified: 637476361837037146
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1799,7 +1819,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Guider.bank
   Name: Guider
   StudioPath: bank:/Guider
-  lastModified: 637475933408467631
+  lastModified: 637476361837820213
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1911,6 +1931,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 69333
+--- !u!114 &7072706097497887599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BGM/TitleMusicLowpass
+  m_EditorClassIdentifier: 
+  Name: TitleMusicLowpass
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7425642104777866675
 MonoBehaviour:
   m_ObjectHideFlags: 0
