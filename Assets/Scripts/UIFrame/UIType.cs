@@ -14,7 +14,7 @@ public class UIType
     {
         Path = path;
         Name = path.Substring(path.LastIndexOf('/') + 1);
-        Debug.Log(Name);
-        Debug.Log(Path);
+        //Debug.Log(Name);
+        //Debug.Log(Path);
     }
 }

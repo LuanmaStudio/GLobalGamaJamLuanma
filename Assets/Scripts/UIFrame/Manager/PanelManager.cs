@@ -57,4 +57,16 @@ public class PanelManager
             stackPanel.Peek().OnResume();
         }
     }
+
+    /// <summary>
+    /// Panel的清空操作
+    /// </summary>
+    public void Clean()
+    {
+        if (stackPanel.Count > 0)
+        {
+            stackPanel.Peek().OnExit();
+            stackPanel.Pop();
+        }
+    }
 }

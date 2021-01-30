@@ -23,7 +23,8 @@ public class StartPanel : BasePanel
         UITool.GetOrAddComponentInChildren<Button>("Play").onClick.AddListener(() =>
         {
             //点击事件
-            
+            Debug.Log("点了一下开始");
+            //GameRoot.Instance.SceneSystem.SetScene();
         });
     }
 }
