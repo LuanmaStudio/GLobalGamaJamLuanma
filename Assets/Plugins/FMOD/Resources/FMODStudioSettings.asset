@@ -517,10 +517,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 1
+  HasSourceProject: 0
   HasPlatforms: 1
-  sourceProjectPath: Assets/fmod_proj/ggj2021lm/ggj2021lm.fspro
-  sourceBankPath: Assets\fmod_proj\ggj2021lm\Build
+  sourceProjectPath: ../FMODProjects/ggj2021lm/ggj2021lm.fspro
+  sourceBankPath: Assets/fmod_asset
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
