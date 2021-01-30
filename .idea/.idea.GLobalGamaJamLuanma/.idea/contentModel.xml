@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10499\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\10499\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_GLobalGamaJamLuanma.-2072596902.00" t="ExcludeRecursive" />
-    <e p="E:\_My_Unity\GLobalGamaJamLuanma" t="IncludeRecursive">
+    <e p="C:\Users\Administrator\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_GLobalGamaJamLuanma.-2131087740.00" t="ExcludeRecursive" />
+    <e p="E:\GlobalGameJamLuanma\GLobalGamaJamLuanma" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -209,89 +209,6 @@
             </e>
           </e>
         </e>
-        <e p="fmod_proj" t="Include">
-          <e p="ggj2021lm" t="Include">
-            <e p="Metadata" t="Include">
-              <e p="Asset" t="Include">
-                <e p="{1bb8afc3-66d4-49c9-a968-3cbb08f0a2ff}.xml" t="Include" />
-                <e p="{8005e88b-058b-449d-8c8d-db7c38cb6a1f}.xml" t="Include" />
-                <e p="{fd6f5a4e-6950-4d21-854f-264907d34ffa}.xml" t="Include" />
-              </e>
-              <e p="AudioFile" t="Include">
-                <e p="{21de9d9f-52ce-4894-a263-1c97c3e346eb}.xml" t="Include" />
-                <e p="{2abd8756-b617-4567-ab54-60f7e1189ec3}.xml" t="Include" />
-                <e p="{2c8187cf-a15b-4bae-b27a-5307a3968e3b}.xml" t="Include" />
-                <e p="{43199236-f8c4-41c5-9720-6f588134e164}.xml" t="Include" />
-                <e p="{46d09c16-0880-4eee-a1d3-0b680b64b6e4}.xml" t="Include" />
-                <e p="{5d73d083-9000-4ba8-ba16-e7eb845851d3}.xml" t="Include" />
-                <e p="{67ca3615-380a-43fb-96b6-1964b99b899e}.xml" t="Include" />
-                <e p="{824f7f3d-9301-4875-a5e9-c5328e033be6}.xml" t="Include" />
-                <e p="{87c2a213-f6f7-43e7-aebf-d024b1bce284}.xml" t="Include" />
-                <e p="{944896b8-294c-44c8-8793-a5f6204139fb}.xml" t="Include" />
-                <e p="{aded7f0e-dce4-45c1-829a-901e377dd9b3}.xml" t="Include" />
-                <e p="{f5e237c6-8779-43cf-b235-db354bf4baac}.xml" t="Include" />
-              </e>
-              <e p="Bank" t="Include">
-                <e p="{120f42f0-e7a1-43e3-801b-ca13f544f323}.xml" t="Include" />
-                <e p="{188e96c4-b0a9-4923-9d67-8dcf15771498}.xml" t="Include" />
-                <e p="{5352fbb1-a6a7-4c15-804f-ce02557f910a}.xml" t="Include" />
-                <e p="{c3d8c2fb-bac5-4b5c-be2a-cd8c9ce012d2}.xml" t="Include" />
-                <e p="{dbeee0db-11fb-4141-ae0c-513e0049b0d3}.xml" t="Include" />
-                <e p="{fbc05050-aeb8-4753-92bf-a4218a5f7a39}.xml" t="Include" />
-              </e>
-              <e p="BankFolder" t="Include">
-                <e p="{c33a00b7-7c30-4745-805d-4e0217f3fc48}.xml" t="Include" />
-              </e>
-              <e p="EffectPresetFolder" t="Include">
-                <e p="{cd320be0-4b03-4bb2-b18c-5564f04edc36}.xml" t="Include" />
-              </e>
-              <e p="EncodingSetting" t="Include">
-                <e p="{88abe264-73c5-4ffa-a947-f85c5cda7700}.xml" t="Include" />
-              </e>
-              <e p="Event" t="Include">
-                <e p="{13d1ea5f-dbc7-4805-b57e-561e7f0cfbc0}.xml" t="Include" />
-                <e p="{65464da3-b512-4019-888d-656963f6aba5}.xml" t="Include" />
-                <e p="{6fd9c4e2-3f56-4d2f-9c5f-69e3676ca42d}.xml" t="Include" />
-                <e p="{8c143c16-bd63-4ec7-9560-32764fc40bcc}.xml" t="Include" />
-                <e p="{a3a83912-51d8-4144-a34e-3c3cb895d5b9}.xml" t="Include" />
-                <e p="{bf5c69fe-fd4e-4626-a55f-c70b081e5812}.xml" t="Include" />
-                <e p="{c094581a-25e6-4882-b43e-e11806c9c64a}.xml" t="Include" />
-                <e p="{e2b38298-9138-42e9-8241-8d0f09b135cf}.xml" t="Include" />
-              </e>
-              <e p="EventFolder" t="Include">
-                <e p="{312c9e52-ac98-4d75-aa1d-229cacf6e41e}.xml" t="Include" />
-                <e p="{561bac8b-d2be-4a6b-9909-2437418cc509}.xml" t="Include" />
-                <e p="{fff32cd6-e722-41d6-a9c5-9b563c9ea7c2}.xml" t="Include" />
-              </e>
-              <e p="Group" t="Include">
-                <e p="{6e4fa9a6-262a-44a1-b3fb-da6c515862de}.xml" t="Include" />
-                <e p="{a8dc1a57-30dd-4bb1-a521-a0564b4d7760}.xml" t="Include" />
-              </e>
-              <e p="Master.xml" t="Include" />
-              <e p="Mixer.xml" t="Include" />
-              <e p="ParameterPresetFolder" t="Include">
-                <e p="{00d784ce-63d2-4c35-a2df-a3d603691576}.xml" t="Include" />
-              </e>
-              <e p="Platform" t="Include">
-                <e p="{83eea834-fa1b-4769-ad5c-3fe7f6ed91a5}.xml" t="Include" />
-              </e>
-              <e p="ProfilerFolder" t="Include">
-                <e p="{eb3b7c9e-0556-49f2-8723-72ae1f1cef57}.xml" t="Include" />
-              </e>
-              <e p="Return" t="Include">
-                <e p="{7b480d8b-8f21-4961-8642-fa9549d6ff0a}.xml" t="Include" />
-              </e>
-              <e p="SandboxFolder" t="Include">
-                <e p="{90644239-0cf4-48a9-b4ba-9f4d8e8310f7}.xml" t="Include" />
-              </e>
-              <e p="SnapshotGroup" t="Include">
-                <e p="{c9ebd748-e9e7-41ad-8f22-d3bb299adbbf}.xml" t="Include" />
-              </e>
-              <e p="Tags.xml" t="Include" />
-              <e p="Workspace.xml" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="HealthHeartSystem" t="Include">
           <e p="readme.txt" t="Include" />
           <e p="Scripts" t="Include">
@@ -423,6 +340,7 @@
         <e p="Scripts" t="Include">
           <e p="Dialog.cs" t="Include" />
           <e p="EventCenter.cs" t="Include" />
+          <e p="HPBase.cs" t="Include" />
           <e p="ShadowPool.cs" t="Include" />
           <e p="ShadowSprite.cs" t="Include" />
           <e p="SingeCaseBase.cs" t="Include" />
@@ -447,7 +365,7 @@
           <e p="WordsAnalyze.cs" t="Include" />
         </e>
         <e p="SimplePixelUI" t="Include">
-          <e p="Fonts" t="Include">
+          <e p="fonts" t="Include">
             <e p="Font1" t="Include">
               <e p="license.txt" t="Include" />
               <e p="readme.txt" t="Include" />
