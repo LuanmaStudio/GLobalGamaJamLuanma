@@ -21,35 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a69a5ccf-8e92-423a-9032-aa019b8af30b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AllIn1SpriteShader/URP_Import_All1Sh.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/DAWAsset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/DAWProject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/DataFile.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/EffectPreset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/Locale.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/MixerView.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/ParameterPreset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/ProfilerSession.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/SandboxScene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/Snapshot.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/VCA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Character.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Character.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Rabbit.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Rabbit.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/ShadowPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/ShadowPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Panel/StartPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Panel/StartPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Base/BasePanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Base/BasePanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/SettingPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/SettingPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/StartPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/StartPanel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +41,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Manager/PanelManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Base/BasePanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/StartManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/UIType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/SettingPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Manager/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Base/BasePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/SettingPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/StartPanel.cs" />
       </list>
     </option>
@@ -98,10 +76,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="24320">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="24320" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -118,6 +96,7 @@
       <updated>1611923669643</updated>
       <workItem from="1611923693625" duration="9069000" />
       <workItem from="1611965824620" duration="3332000" />
+      <workItem from="1611972844373" duration="1935000" />
     </task>
     <servers />
   </component>
@@ -136,6 +115,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

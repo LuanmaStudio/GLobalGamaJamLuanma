@@ -15,17 +15,19 @@ public class SettingPanel : BasePanel
         UITool.GetOrAddComponentInChildren<Button>("Exit").onClick.AddListener(() =>
         {
             //点击事件
-            PanelManager.Pop(); //退出事件
+            PanelManager.Pop(); //退出设置面板
+        });
+        UITool.GetOrAddComponentInChildren<Button>("ExitGame").onClick.AddListener(() =>
+        {
+            //点击事件
+            UnityEditor.EditorApplication.isPlaying = false;
+            Application.Quit(); //退出游戏
+        });
+        UITool.GetOrAddComponentInChildren<Button>("ReStart").onClick.AddListener(() =>
+        {
+            //点击事件
+            
         });
     }
-
-    public override void OnPause()
-    {
-        
-    }
-
-    public override void OnExit()
-    {
-        UIManager.DestroyUI(UIType);
-    }
+    
 }
