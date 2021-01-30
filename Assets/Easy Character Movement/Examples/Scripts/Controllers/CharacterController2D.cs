@@ -27,6 +27,7 @@ namespace ECM.Examples
         protected override void Animate()
         {
             _animator.SetFloat("Speed",movement.forwardSpeed);
+            _animator.SetBool("Ground",movement.isGrounded);
         }
 
         
@@ -91,7 +92,6 @@ namespace ECM.Examples
 
         public override void Update()
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y);
             base.Update();
 
 

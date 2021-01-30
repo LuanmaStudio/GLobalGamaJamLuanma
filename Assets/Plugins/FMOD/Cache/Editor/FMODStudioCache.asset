@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/fmod_proj/ggj2021lm/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637475576850606041
+  lastModified: 637475587695169621
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -79,7 +79,7 @@ MonoBehaviour:
   Path: Assets/fmod_proj/ggj2021lm/Build/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 637475576850285738
+  lastModified: 637475587695179588
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -98,7 +98,7 @@ MonoBehaviour:
   Path: Assets/fmod_proj/ggj2021lm/Build/Desktop/Boss.bank
   Name: Boss
   StudioPath: bank:/Boss
-  lastModified: 637475576850470718
+  lastModified: 637475587695159642
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -131,7 +131,7 @@ MonoBehaviour:
   - {fileID: 6263751355353250755}
   StringsBanks:
   - {fileID: 3979181476900606661}
-  stringsBankWriteTime: 637475576849350531
+  stringsBankWriteTime: 637475587695169621
   cacheVersion: 6
 --- !u!114 &1519287640672482258
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   Path: Assets/fmod_proj/ggj2021lm/Build/Desktop/System.bank
   Name: System
   StudioPath: bank:/System
-  lastModified: 637475576851269770
+  lastModified: 637475587695179588
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -190,7 +190,7 @@ MonoBehaviour:
   Path: Assets/fmod_proj/ggj2021lm/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637475576849350531
+  lastModified: 637475587695169621
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -234,7 +234,7 @@ MonoBehaviour:
   Path: Assets/fmod_proj/ggj2021lm/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637475576849215509
+  lastModified: 637475587695159642
   LoadResult: 0
   FileSizes: []
   Exists: 1
