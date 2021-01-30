@@ -292,6 +292,17 @@
             </e>
           </e>
         </e>
+        <e p="HealthHeartSystem" t="Include">
+          <e p="readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="HealthBarController.cs" t="Include" />
+            <e p="HealthBarHUDTester.cs" t="Include" />
+            <e p="PlayerStats.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Pixel Font - Tripfive" t="Include">
+          <e p="_README.txt" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="FMOD" t="Include">
             <e p="addons" t="Include">
@@ -434,6 +445,18 @@
             <e p="UIType.cs" t="Include" />
           </e>
           <e p="WordsAnalyze.cs" t="Include" />
+        </e>
+        <e p="SimplePixelUI" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="Font1" t="Include">
+              <e p="license.txt" t="Include" />
+              <e p="readme.txt" t="Include" />
+            </e>
+            <e p="Font2" t="Include">
+              <e p="license.txt" t="Include" />
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Text" t="Include">
           <e p="test.txt" t="Include" />

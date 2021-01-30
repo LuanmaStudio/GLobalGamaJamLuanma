@@ -48,21 +48,30 @@ public abstract class BasePanel
     /// <summary>
     /// 进入操作
     /// </summary>
-    public virtual void OnEnter() {} 
-    
+    public virtual void OnEnter() {}
+
     /// <summary>
     /// 暂停操作
     /// </summary>
-    public virtual void OnPause() {}
-    
+    public virtual void OnPause()
+    {
+        UITool.GetOrAddComponent<CanvasGroup>().interactable = false;
+    }
+
     /// <summary>
     /// 继续操作
     /// </summary>
-    public virtual void OnResume() {}
-    
+    public virtual void OnResume()
+    {
+        UITool.GetOrAddComponent<CanvasGroup>().interactable = true;
+    }
+
     /// <summary>
     /// 退出操作
     /// </summary>
-    public virtual void OnExit() {}
+    public virtual void OnExit()
+    {
+        UIManager.DestroyUI(UIType);
+    }
     
 }

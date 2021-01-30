@@ -17,8 +17,13 @@ public class StartPanel : BasePanel
         UITool.GetOrAddComponentInChildren<Button>("Setting").onClick.AddListener(() =>
         {
             //点击事件
-            Debug.Log("设置按钮被点了");
+            //Debug.Log("设置按钮被点了");
             PanelManager.Push(new SettingPanel());
+        });
+        UITool.GetOrAddComponentInChildren<Button>("Play").onClick.AddListener(() =>
+        {
+            //点击事件
+            
         });
     }
 }
