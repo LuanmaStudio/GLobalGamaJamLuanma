@@ -16,9 +16,13 @@ namespace ECM.Examples
         public float DashInterval = 1f;
 
         private float LastTime;
+
+        private bool GroundState;
         private void Start()
         {
             _animator = GetComponentInChildren<Animator>();
+            EventCenter.Instance.AddEventListener("PlayerJump",Smoke);
+            EventCenter.Instance.AddEventListener("PlayerLand",Smoke);
         }
         /// <summary>
         /// Overrides BaseCharacterController Animate method.
@@ -26,11 +30,23 @@ namespace ECM.Examples
 
         protected override void Animate()
         {
+            if (GroundState != movement.isGrounded&& movement.velocity.y < 0.1f)
+            {
+                EventCenter.Instance.EventTrigger("PlayerLand");
+            }
+
+            GroundState = movement.isGrounded;
+
             _animator.SetFloat("Speed",movement.forwardSpeed);
             _animator.SetBool("Ground",movement.isGrounded);
+            
         }
 
-        
+
+        void Smoke()
+        {
+            Destroy(Instantiate(Resources.Load("Smoke"), transform.position+Vector3.up, Quaternion.identity), .5f);
+        }
 
         /// <summary>
         /// Overrides BaseCharacterController HandleInput method. 

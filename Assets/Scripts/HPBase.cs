@@ -6,7 +6,12 @@ public class HPBase : MonoBehaviour
 {
     public int MaxHp = 1;
 
-    private int currentHp;
+    [SerializeField]protected int currentHp;
+
+    protected virtual void Start()
+    {
+        currentHp = MaxHp;
+    }
 
 
     protected virtual void Death()

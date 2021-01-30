@@ -610,6 +610,11 @@ namespace ECM.Controllers
             // Apply jump impulse
 
             movement.ApplyVerticalImpulse(jumpImpulse);
+            //Smoke
+            
+            EventCenter.Instance.EventTrigger("PlayerJump");
+            
+
 
             // 'Pause' grounding, allowing character to safely leave the 'ground'
 

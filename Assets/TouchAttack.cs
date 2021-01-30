@@ -21,7 +21,7 @@ public class TouchAttack : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<HPBase>().TakeDamage(1,DamageType.Touch);
+            other.gameObject.GetComponent<HPBase>().TakeDamage(1,DamageType.World);
         }
     }
 }
