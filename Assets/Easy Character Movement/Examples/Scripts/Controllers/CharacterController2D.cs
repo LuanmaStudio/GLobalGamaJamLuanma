@@ -22,6 +22,7 @@ namespace ECM.Examples
         {
             _animator = GetComponentInChildren<Animator>();
             EventCenter.Instance.AddEventListener("PlayerJump",Smoke);
+            EventCenter.Instance.AddEventListener("PlayerLand",Smoke);
         }
         /// <summary>
         /// Overrides BaseCharacterController Animate method.
@@ -29,6 +30,12 @@ namespace ECM.Examples
 
         protected override void Animate()
         {
+            if (GroundState != movement.isGrounded&& movement.velocity.y < 0.1f)
+            {
+                EventCenter.Instance.EventTrigger("PlayerLand");
+            }
+
+            GroundState = movement.isGrounded;
 
             _animator.SetFloat("Speed",movement.forwardSpeed);
             _animator.SetBool("Ground",movement.isGrounded);
