@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a69a5ccf-8e92-423a-9032-aa019b8af30b" name="Default Changelist" comment="" />
+    <list default="true" id="a69a5ccf-8e92-423a-9032-aa019b8af30b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllIn1SpriteShader/URP_Import_All1Sh.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Panel/SettingPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Panel/SettingPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Panel/StartPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Panel/StartPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/SettingPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/SettingPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/StartPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/StartPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Manager/PanelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Manager/PanelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/StartManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/StartManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/UITool/UITool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFrame/UITool/UITool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/UIType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFrame/UIType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,13 +44,36 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/ChangePanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager/SceneSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager/StartScene.cs" root0="FORCE_HIGHLIGHTING" />
+=======
     <setting file="file://$PROJECT_DIR$/Assets/TouchAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnermyHP.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnermyWalk.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> adab5c216668ef00074464131f8d1f87e19b82f3
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShadowSprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager/SceneState.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
+<<<<<<< HEAD
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/UITool/UITool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/ChangePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager/SceneState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager/StartScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager/SceneSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/StartPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/UIType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/SettingPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Manager/PanelManager.cs" />
+      </list>
+    </option>
+=======
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" />
       <option value="$PROJECT_DIR$/Assets/Text/test.txt" />
@@ -36,6 +92,7 @@
       <option value="$PROJECT_DIR$/Assets/EnermyHP.cs" />
       <option value="$PROJECT_DIR$/Assets/EnermyWalk.cs" />
     </changedPaths>
+>>>>>>> adab5c216668ef00074464131f8d1f87e19b82f3
   </component>
   <component name="ProjectId" id="1nkAMFOzKvjdE9tZAYddGdjxMME" />
   <component name="ProjectViewState">
@@ -43,6 +100,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,7 +112,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -63,7 +121,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -76,14 +134,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611923669643</updated>
+<<<<<<< HEAD
+      <workItem from="1611923693625" duration="11491000" />
+      <workItem from="1611986548457" duration="7564000" />
+      <workItem from="1611995740979" duration="504000" />
+=======
       <workItem from="1611923693625" duration="19339000" />
+>>>>>>> adab5c216668ef00074464131f8d1f87e19b82f3
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="37" y="199" width="1095" height="495" key="VCS.FileHistoryDialog" timestamp="1611987676510">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="37" y="199" width="1095" height="495" key="VCS.FileHistoryDialog/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611987676510" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
