@@ -26,6 +26,9 @@ public class ActionContainerWithoutT: I_Empty
 public class EventCenter : SingeCaseBase<EventCenter>
 {
     Dictionary<string, I_Empty> dic = new Dictionary<string, I_Empty>();
+
+    
+    
     /// <summary>
     /// 添加监听事件[带有参数的响应]
     /// </summary>
@@ -49,6 +52,8 @@ public class EventCenter : SingeCaseBase<EventCenter>
     /// <param name="action"></param>
     public void AddEventListener(string eventName, UnityAction action)
     {
+        
+        
         if (dic.ContainsKey(eventName))
         {
             (dic[eventName] as ActionContainerWithoutT).actionData += action;
@@ -111,5 +116,5 @@ public class EventCenter : SingeCaseBase<EventCenter>
     {
         dic.Clear();
     }
-
+    
 }

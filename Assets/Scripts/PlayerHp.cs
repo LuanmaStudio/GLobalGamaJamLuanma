@@ -1,19 +1,29 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using ECM.Examples;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class PlayerHp : HPBase
+public class PlayerHp : HPBase , IRestart
 {
 
     public bool isImmunte = false;
 
     private Animator _animator;
+
+    public static PlayerHp Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     protected override void Start()
     {
         base.Start();
         _animator = GetComponentInChildren<Animator>();
-        
+        ReloadManager.Instance.List.Add(this);
     }
     
     
@@ -40,7 +50,7 @@ public class PlayerHp : HPBase
     {
         currentHp += value;
 
-        currentHp = Mathf.Clamp(currentHp, 0, MaxHp);
+        currentHp = Mathf.Clamp(currentHp, 0, MAXHp);
         
         EventCenter.Instance.EventTrigger("PlayerHeal");
     }
@@ -52,7 +62,16 @@ public class PlayerHp : HPBase
         _animator.SetBool("Dead",true);
         GetComponent<CharacterController2D>().movement.velocity = Vector3.down*10;
         GetComponent<CharacterController2D>().enabled = false;
-        
+        global::Restart.Instance.gameObject.SetActive(true);
         EventCenter.Instance.EventTrigger("PlayerDead");
+    }
+
+    public void Reset()
+    {
+        GetComponent<CharacterController2D>().enabled = true;
+        currentHp = maxHp;
+        _animator.SetBool("Dead",false);
+        _animator.Play("Idle");
+        transform.position = GameObject.Find("SpawnPoint").transform.position;
     }
 }

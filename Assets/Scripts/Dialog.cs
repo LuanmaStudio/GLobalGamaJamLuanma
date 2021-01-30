@@ -9,7 +9,7 @@ using DG.Tweening;
 using System.Reflection;
 using System.IO;
 
-public class Dialog : MonoBehaviour
+public class Dialog : MonoBehaviour, IRestart
 {
 
     public TextAsset file;
@@ -31,11 +31,17 @@ public class Dialog : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        gameObject.SetActive(false);
     }
 
-    void Start()
+    private void Start()
     {
-        dialogBox = GetComponent<Text>();
+        ReloadManager.Instance.List.Add(this);
+    }
+
+    void OnEnable()
+    {
+        dialogBox = GetComponentInChildren<Text>();
         //注册方法模板第一次参数:在Lua里叫的函数名,最后一个参数填C#里函数名
         lua.RegisterFunction("w", this, GetType().GetMethod("WaitForWhile"));
         lua.RegisterFunction("print", this, GetType().GetMethod("LPrint"));
@@ -118,7 +124,18 @@ public class Dialog : MonoBehaviour
     {
         print(content);
     }
-    
-    
 
+    public void ShowDialog(TextAsset textAsset)
+    {
+        file = textAsset;
+        enabled = true;
+        gameObject.SetActive(true);
+    }
+
+
+    public void Reset()
+    {
+        StopAllCoroutines();
+        gameObject.SetActive(false);
+    }
 }

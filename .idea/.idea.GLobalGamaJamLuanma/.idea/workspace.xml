@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a69a5ccf-8e92-423a-9032-aa019b8af30b" name="Default Changelist" comment="" />
+    <list default="true" id="a69a5ccf-8e92-423a-9032-aa019b8af30b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Material/UI.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Material/UI.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Panel/ChangePanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Panel/ChangePanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/ChangePanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/ChangePanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Manager/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Manager/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,20 +22,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/TouchAttack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnermyHP.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MidKit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerAttack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnermyWalk.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShadowSprite.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnermyTouchAttack.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Manager/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/ChangePanel.cs" />
+      </list>
+    </option>
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/HPSilider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Restart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Teleport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PLayerAperance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShadowSprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BeginBroken.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Text/test.txt" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EventCenter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SingeCaseBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/CharacterMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShadowSprite.cs" />
@@ -34,15 +52,27 @@
       <option value="$PROJECT_DIR$/Assets/EnermyTouchAttack.cs" />
       <option value="$PROJECT_DIR$/Assets/TouchAttack.cs" />
       <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/HPBase.cs" />
       <option value="$PROJECT_DIR$/Assets/MidKit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShadowPool.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MonoSingelton.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerAttack.cs" />
       <option value="$PROJECT_DIR$/Assets/FollowPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerHp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Teleport.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MonoSingelton.cs" />
+      <option value="$PROJECT_DIR$/Assets/PLayerAperance.cs" />
+      <option value="$PROJECT_DIR$/Assets/Text/阶段二.txt" />
+      <option value="$PROJECT_DIR$/Assets/BeginBroken.cs" />
+      <option value="$PROJECT_DIR$/Assets/HPSilider.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HPBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnermyHP.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ReloadManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EventCenter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Restart.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
     </changedPaths>
+>>>>>>> a18e7872b5ee0333f4970cddb6f9ddd9a0c1bd59
   </component>
   <component name="ProjectId" id="1nkAMFOzKvjdE9tZAYddGdjxMME" />
   <component name="ProjectViewState">
@@ -50,6 +80,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,7 +92,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -70,7 +101,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -84,11 +115,15 @@
       <option name="presentableId" value="Default" />
       <updated>1611923669643</updated>
       <workItem from="1611923693625" duration="28716000" />
+      <workItem from="1612014729533" duration="1027000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

@@ -37,7 +37,7 @@ public class UIManager
         {
             return dicUI[type];
         }
-        Debug.Log(type.Path);
+        //Debug.Log(type.Path);
         GameObject ui = GameObject.Instantiate(Resources.Load<GameObject>(type.Path),parent.transform);
         ui.name = type.Name;
         dicUI.Add(type,ui);
