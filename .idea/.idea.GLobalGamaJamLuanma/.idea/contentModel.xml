@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Administrator\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Administrator\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_GLobalGamaJamLuanma.-2131087740.00" t="ExcludeRecursive" />
-    <e p="E:\GlobalGameJamLuanma\GLobalGamaJamLuanma" t="IncludeRecursive">
+    <e p="C:\Users\10499\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\10499\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_GLobalGamaJamLuanma.-2072596902.00" t="ExcludeRecursive" />
+    <e p="E:\_My_Unity\GLobalGamaJamLuanma" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -234,6 +234,7 @@
               <e p="Bank" t="Include">
                 <e p="{120f42f0-e7a1-43e3-801b-ca13f544f323}.xml" t="Include" />
                 <e p="{188e96c4-b0a9-4923-9d67-8dcf15771498}.xml" t="Include" />
+                <e p="{5352fbb1-a6a7-4c15-804f-ce02557f910a}.xml" t="Include" />
                 <e p="{c3d8c2fb-bac5-4b5c-be2a-cd8c9ce012d2}.xml" t="Include" />
                 <e p="{dbeee0db-11fb-4141-ae0c-513e0049b0d3}.xml" t="Include" />
                 <e p="{fbc05050-aeb8-4753-92bf-a4218a5f7a39}.xml" t="Include" />
@@ -251,12 +252,20 @@
                 <e p="{13d1ea5f-dbc7-4805-b57e-561e7f0cfbc0}.xml" t="Include" />
                 <e p="{65464da3-b512-4019-888d-656963f6aba5}.xml" t="Include" />
                 <e p="{6fd9c4e2-3f56-4d2f-9c5f-69e3676ca42d}.xml" t="Include" />
+                <e p="{8c143c16-bd63-4ec7-9560-32764fc40bcc}.xml" t="Include" />
                 <e p="{a3a83912-51d8-4144-a34e-3c3cb895d5b9}.xml" t="Include" />
+                <e p="{bf5c69fe-fd4e-4626-a55f-c70b081e5812}.xml" t="Include" />
+                <e p="{c094581a-25e6-4882-b43e-e11806c9c64a}.xml" t="Include" />
+                <e p="{e2b38298-9138-42e9-8241-8d0f09b135cf}.xml" t="Include" />
               </e>
               <e p="EventFolder" t="Include">
                 <e p="{312c9e52-ac98-4d75-aa1d-229cacf6e41e}.xml" t="Include" />
                 <e p="{561bac8b-d2be-4a6b-9909-2437418cc509}.xml" t="Include" />
                 <e p="{fff32cd6-e722-41d6-a9c5-9b563c9ea7c2}.xml" t="Include" />
+              </e>
+              <e p="Group" t="Include">
+                <e p="{6e4fa9a6-262a-44a1-b3fb-da6c515862de}.xml" t="Include" />
+                <e p="{a8dc1a57-30dd-4bb1-a521-a0564b4d7760}.xml" t="Include" />
               </e>
               <e p="Master.xml" t="Include" />
               <e p="Mixer.xml" t="Include" />
@@ -406,6 +415,24 @@
           <e p="ShadowPool.cs" t="Include" />
           <e p="ShadowSprite.cs" t="Include" />
           <e p="SingeCaseBase.cs" t="Include" />
+          <e p="UIFrame" t="Include">
+            <e p="Base" t="Include">
+              <e p="BasePanel.cs" t="Include" />
+            </e>
+            <e p="Concrete" t="Include">
+              <e p="SettingPanel.cs" t="Include" />
+              <e p="StartPanel.cs" t="Include" />
+            </e>
+            <e p="Manager" t="Include">
+              <e p="PanelManager.cs" t="Include" />
+              <e p="UIManager.cs" t="Include" />
+            </e>
+            <e p="StartManager.cs" t="Include" />
+            <e p="UITool" t="Include">
+              <e p="UITool.cs" t="Include" />
+            </e>
+            <e p="UIType.cs" t="Include" />
+          </e>
           <e p="WordsAnalyze.cs" t="Include" />
         </e>
         <e p="Text" t="Include">

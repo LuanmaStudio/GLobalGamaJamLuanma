@@ -543,6 +543,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Boss
+  - Guider
   - Music
   - Player
   - System
