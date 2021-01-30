@@ -25716,6 +25716,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: PlayerSprite
       objectReference: {fileID: 0}
+    - target: {fileID: 8937006000492265452, guid: a040b3bee081041448f3f2be9de4cfbb,
+        type: 3}
+      propertyPath: deadSound
+      value: event:/Player/dead
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937006000492265452, guid: a040b3bee081041448f3f2be9de4cfbb,
+        type: 3}
+      propertyPath: headattackSound
+      value: event:/Player/caiguai
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a040b3bee081041448f3f2be9de4cfbb, type: 3}
 --- !u!1 &1861604533
