@@ -50,7 +50,9 @@ public class PlayerHp : HPBase
     {
         base.Death();
         _animator.SetBool("Dead",true);
+        GetComponent<CharacterController2D>().movement.velocity = Vector3.down*10;
         GetComponent<CharacterController2D>().enabled = false;
-
+        
+        EventCenter.Instance.EventTrigger("PlayerDead");
     }
 }
