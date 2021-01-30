@@ -18,12 +18,23 @@ public class CharacterFmodScript : MonoBehaviour
 
     [FMODUnity.EventRef]
     public string healSound;
+
+    [FMODUnity.EventRef]
+    public string deadSound;
+
+    [FMODUnity.EventRef]
+    public string headattackSound;
+
+
     // Start is called before the first frame update
     void Start()
     {
         EventCenter.Instance.AddEventListener("PlayerJump", jumpsound);
         EventCenter.Instance.AddEventListener("PlayerHit", hitsound);
         EventCenter.Instance.AddEventListener("PlayerHeal", healsound);
+        EventCenter.Instance.AddEventListener("PlayerDead", deadsound);
+        EventCenter.Instance.AddEventListener("PlayerHeadAttack", headattacksound);
+
     }
 
     // Update is called once per frame
@@ -44,6 +55,7 @@ public class CharacterFmodScript : MonoBehaviour
         walk.start();
     }
 
+
     public void dashsound()
     {
         FMOD.Studio.EventInstance walk = FMODUnity.RuntimeManager.CreateInstance(dashSound);
@@ -62,4 +74,15 @@ public class CharacterFmodScript : MonoBehaviour
         walk.start();
     }
 
+    public void deadsound()
+    {
+        FMOD.Studio.EventInstance walk = FMODUnity.RuntimeManager.CreateInstance(deadSound);
+        walk.start();
+    }
+
+    public void headattacksound()
+    {
+        FMOD.Studio.EventInstance walk = FMODUnity.RuntimeManager.CreateInstance(headattackSound);
+        walk.start();
+    }
 }
