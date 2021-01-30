@@ -15,6 +15,6 @@ public class MonoSingelton<T>: MonoBehaviour where T: Component
             DontDestroyOnLoad(go);
             return instance = go.AddComponent<T>();
         }
-        private set { instance = value; }
+        protected set { instance = value; }
     }
 }

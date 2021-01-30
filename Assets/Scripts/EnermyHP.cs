@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnermyHP : HPBase
+public class EnermyHP : HPBase, IRestart
 {
     void Start()
     {
+        ReloadManager.Instance.List.Add(this);
     }
 
     // Update is called once per frame
@@ -17,6 +18,12 @@ public class EnermyHP : HPBase
     protected override void Death()
     {
         Destroy(Instantiate(Resources.Load<GameObject>("Blood"), transform.position, Quaternion.Euler(90,0,0)),3f);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
+    }
+
+    public void Reset()
+    {
+        currentHp = maxHp;
+        gameObject.SetActive(true);
     }
 }
