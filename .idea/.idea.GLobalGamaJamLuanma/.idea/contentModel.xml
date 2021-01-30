@@ -47,6 +47,7 @@
             <e p="CharacterFmodScript.cs" t="Include" />
           </e>
         </e>
+        <e p="BeginBroken.cs" t="Include" />
         <e p="Demigiant" t="Include">
           <e p="DemiLib" t="Include">
             <e p="Core" t="Include">
@@ -214,10 +215,6 @@
             </e>
           </e>
         </e>
-        <e p="EnermyHP.cs" t="Include" />
-        <e p="EnermyTouchAttack.cs" t="Include" />
-        <e p="EnermyWalk.cs" t="Include" />
-        <e p="FollowPlayer.cs" t="Include" />
         <e p="HealthHeartSystem" t="Include">
           <e p="readme.txt" t="Include" />
           <e p="Scripts" t="Include">
@@ -226,12 +223,10 @@
             <e p="PlayerStats.cs" t="Include" />
           </e>
         </e>
-        <e p="MidKit.cs" t="Include" />
         <e p="Pixel Font - Tripfive" t="Include">
           <e p="_README.txt" t="Include" />
         </e>
-        <e p="PlayerAttack.cs" t="Include" />
-        <e p="PlayerHp.cs" t="Include" />
+        <e p="PLayerAperance.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="FMOD" t="Include">
             <e p="addons" t="Include">
@@ -352,10 +347,17 @@
         <e p="Scripts" t="Include">
           <e p="DamageType.cs" t="Include" />
           <e p="Dialog.cs" t="Include" />
+          <e p="EnermyHP.cs" t="Include" />
+          <e p="EnermyTouchAttack.cs" t="Include" />
+          <e p="EnermyWalk.cs" t="Include" />
           <e p="EventCenter.cs" t="Include" />
+          <e p="FollowPlayer.cs" t="Include" />
           <e p="GameRoot.cs" t="Include" />
           <e p="HPBase.cs" t="Include" />
+          <e p="MidKit.cs" t="Include" />
           <e p="MonoSingelton.cs" t="Include" />
+          <e p="PlayerAttack.cs" t="Include" />
+          <e p="PlayerHp.cs" t="Include" />
           <e p="SceneManager" t="Include">
             <e p="SceneState.cs" t="Include" />
             <e p="SceneSystem.cs" t="Include" />
@@ -364,6 +366,7 @@
           <e p="ShadowPool.cs" t="Include" />
           <e p="ShadowSprite.cs" t="Include" />
           <e p="SingeCaseBase.cs" t="Include" />
+          <e p="TouchAttack.cs" t="Include" />
           <e p="UIFrame" t="Include">
             <e p="Base" t="Include">
               <e p="BasePanel.cs" t="Include" />
@@ -396,10 +399,10 @@
             </e>
           </e>
         </e>
+        <e p="Teleport.cs" t="Include" />
         <e p="Text" t="Include">
-          <e p="test.txt" t="Include" />
+          <e p="阶段二.txt" t="Include" />
         </e>
-        <e p="TouchAttack.cs" t="Include" />
       </e>
       <e p="FMODUnity.csproj" t="IncludeRecursive" />
       <e p="FMODUnityEditor.csproj" t="IncludeRecursive" />

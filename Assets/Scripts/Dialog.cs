@@ -31,11 +31,12 @@ public class Dialog : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        gameObject.SetActive(false);
     }
 
-    void Start()
+    void OnEnable()
     {
-        dialogBox = GetComponent<Text>();
+        dialogBox = GetComponentInChildren<Text>();
         //注册方法模板第一次参数:在Lua里叫的函数名,最后一个参数填C#里函数名
         lua.RegisterFunction("w", this, GetType().GetMethod("WaitForWhile"));
         lua.RegisterFunction("print", this, GetType().GetMethod("LPrint"));
@@ -118,7 +119,13 @@ public class Dialog : MonoBehaviour
     {
         print(content);
     }
-    
+
+    public void ShowDialog(TextAsset textAsset)
+    {
+        file = textAsset;
+        enabled = true;
+        gameObject.SetActive(true);
+    }
     
 
 }
