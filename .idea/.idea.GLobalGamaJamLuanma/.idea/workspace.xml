@@ -11,6 +11,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/HPSilider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Restart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Teleport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PLayerAperance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShadowSprite.cs" root0="FORCE_HIGHLIGHTING" />
@@ -19,7 +21,6 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Text/test.txt" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EventCenter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SingeCaseBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/CharacterMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShadowSprite.cs" />
@@ -29,8 +30,6 @@
       <option value="$PROJECT_DIR$/Assets/EnermyTouchAttack.cs" />
       <option value="$PROJECT_DIR$/Assets/TouchAttack.cs" />
       <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/HPBase.cs" />
       <option value="$PROJECT_DIR$/Assets/MidKit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShadowPool.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerAttack.cs" />
@@ -41,6 +40,14 @@
       <option value="$PROJECT_DIR$/Assets/PLayerAperance.cs" />
       <option value="$PROJECT_DIR$/Assets/Text/阶段二.txt" />
       <option value="$PROJECT_DIR$/Assets/BeginBroken.cs" />
+      <option value="$PROJECT_DIR$/Assets/HPSilider.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HPBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnermyHP.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ReloadManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EventCenter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Restart.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHp.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
     </changedPaths>
   </component>

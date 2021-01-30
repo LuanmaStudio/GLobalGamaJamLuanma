@@ -45,7 +45,8 @@ namespace ECM.Examples
 
         void Smoke()
         {
-            Destroy(Instantiate(Resources.Load("Smoke"), transform.position+Vector3.up, Quaternion.identity), .5f);
+            var go = Instantiate(Resources.Load("Smoke"), transform.position + Vector3.up, Quaternion.identity);
+            Destroy(go, .5f);
         }
 
         /// <summary>

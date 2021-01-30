@@ -9,7 +9,7 @@ using DG.Tweening;
 using System.Reflection;
 using System.IO;
 
-public class Dialog : MonoBehaviour
+public class Dialog : MonoBehaviour, IRestart
 {
 
     public TextAsset file;
@@ -32,6 +32,11 @@ public class Dialog : MonoBehaviour
     {
         instance = this;
         gameObject.SetActive(false);
+    }
+
+    private void Start()
+    {
+        ReloadManager.Instance.List.Add(this);
     }
 
     void OnEnable()
@@ -126,6 +131,11 @@ public class Dialog : MonoBehaviour
         enabled = true;
         gameObject.SetActive(true);
     }
-    
 
+
+    public void Reset()
+    {
+        StopAllCoroutines();
+        gameObject.SetActive(false);
+    }
 }

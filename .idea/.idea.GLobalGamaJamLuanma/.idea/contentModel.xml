@@ -223,6 +223,7 @@
             <e p="PlayerStats.cs" t="Include" />
           </e>
         </e>
+        <e p="HPSilider.cs" t="Include" />
         <e p="Pixel Font - Tripfive" t="Include">
           <e p="_README.txt" t="Include" />
         </e>
@@ -344,6 +345,7 @@
             </e>
           </e>
         </e>
+        <e p="Restart.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="DamageType.cs" t="Include" />
           <e p="Dialog.cs" t="Include" />
@@ -358,6 +360,7 @@
           <e p="MonoSingelton.cs" t="Include" />
           <e p="PlayerAttack.cs" t="Include" />
           <e p="PlayerHp.cs" t="Include" />
+          <e p="ReloadManager.cs" t="Include" />
           <e p="SceneManager" t="Include">
             <e p="SceneState.cs" t="Include" />
             <e p="SceneSystem.cs" t="Include" />

@@ -4,13 +4,25 @@ using UnityEngine;
 
 public class HPBase : MonoBehaviour
 {
-    public int MaxHp = 1;
+    [SerializeField]public int maxHp = 1;
 
     [SerializeField]protected int currentHp;
 
+    public int MAXHp
+    {
+        get => maxHp;
+        private set => maxHp = value;
+    }
+
+    public int CurrentHp
+    {
+        get => currentHp;
+        private set => currentHp = value;
+    }
+
     protected virtual void Start()
     {
-        currentHp = MaxHp;
+        currentHp = maxHp;
     }
 
 
