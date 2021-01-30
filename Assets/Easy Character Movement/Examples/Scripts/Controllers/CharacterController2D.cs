@@ -28,14 +28,10 @@ namespace ECM.Examples
         {
             _animator.SetFloat("Speed",movement.forwardSpeed);
             _animator.SetBool("Ground",movement.isGrounded);
-
-            if (movement)
-            {
-                Destroy(Instantiate(Resources.Load("Smoke"), transform.position, Quaternion.identity), 1f);
-            }
+            
         }
-
         
+
 
         /// <summary>
         /// Overrides BaseCharacterController HandleInput method. 
