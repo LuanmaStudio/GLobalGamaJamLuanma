@@ -9,6 +9,8 @@ public class PlayerAttack : MonoBehaviour
     private PlayerHp _playerHp;
     private CharacterMovement _movement;
     private CapsuleCollider capsuleCollider;
+    [FMODUnity.EventRef]
+    public string dashSound;
     
     void Start()
     {
@@ -45,6 +47,7 @@ public class PlayerAttack : MonoBehaviour
 
     void BeginAttack()
     {
+        FMODUnity.RuntimeManager.PlayOneShot(dashSound, transform.position);
         StartCoroutine(Attack());
         print("Attack");
     }
