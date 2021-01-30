@@ -1,9 +1,9 @@
 ﻿
 public class SingeCaseBase<T> where T :new()
 {
-    private T instance;
+    private static T instance;
 
-    public T Instance
+    public static T Instance
     {
         get
         {

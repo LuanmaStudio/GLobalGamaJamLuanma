@@ -678,6 +678,7 @@ namespace ECM.Components
         {
             GetComponent<Rigidbody>().velocity += transform.forward * 100;
             StartCoroutine(DashAnimation());
+            EventCenter.Instance.EventTrigger("PlayerAttack");
         }
 
         IEnumerator DashAnimation()
@@ -700,6 +701,7 @@ namespace ECM.Components
             }
         }
         
+
         /// <summary>
         /// Will check for clearance above the character up to the given clearanceHeight.
         /// Returns true if is clear above character, otherwise false.
