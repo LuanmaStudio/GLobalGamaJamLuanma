@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7846194071382802458
+--- !u!114 &-8937687548190231309
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21,8 +21,8 @@ MonoBehaviour:
       Value: 1
       HasValue: 1
     LiveUpdatePort:
-      Value: 0
-      HasValue: 0
+      Value: 9264
+      HasValue: 1
     Overlay:
       Value: 1
       HasValue: 1
@@ -145,37 +145,37 @@ MonoBehaviour:
   Properties:
     LiveUpdate:
       Value: 0
-      HasValue: 0
+      HasValue: 1
     LiveUpdatePort:
       Value: 9264
       HasValue: 1
     Overlay:
       Value: 0
-      HasValue: 0
+      HasValue: 1
     Logging:
       Value: 0
       HasValue: 0
     SampleRate:
       Value: 0
-      HasValue: 0
+      HasValue: 1
     BuildDirectory:
-      Value: 
-      HasValue: 0
+      Value: Desktop
+      HasValue: 1
     SpeakerMode:
-      Value: 0
-      HasValue: 0
+      Value: 3
+      HasValue: 1
     VirtualChannelCount:
-      Value: 0
-      HasValue: 0
+      Value: 128
+      HasValue: 1
     RealChannelCount:
-      Value: 0
-      HasValue: 0
+      Value: 32
+      HasValue: 1
     DSPBufferLength:
       Value: 0
-      HasValue: 0
+      HasValue: 1
     DSPBufferCount:
       Value: 0
-      HasValue: 0
+      HasValue: 1
     Plugins:
       Value: []
       HasValue: 1
@@ -184,7 +184,7 @@ MonoBehaviour:
       HasValue: 1
     CallbackHandler:
       Value: {fileID: 0}
-      HasValue: 0
+      HasValue: 1
   outputType: 
   threadAffinities:
     Value: []
@@ -543,6 +543,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Boss
+  - Guider
   - Music
   - Player
   - System
