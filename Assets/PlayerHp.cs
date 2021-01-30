@@ -31,8 +31,18 @@ public class PlayerHp : HPBase
         {
             base.TakeDamage(damage,type);
             _animator.SetTrigger("Hurt");
+            EventCenter.Instance.EventTrigger("PlayerHit");
         }
             
+    }
+
+    public virtual void Healing(int value)
+    {
+        currentHp += value;
+
+        currentHp = Mathf.Clamp(currentHp, 0, MaxHp);
+        
+        EventCenter.Instance.EventTrigger("PlayerHeal");
     }
     
 

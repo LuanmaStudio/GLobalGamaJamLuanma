@@ -225,6 +225,7 @@
             <e p="PlayerStats.cs" t="Include" />
           </e>
         </e>
+        <e p="MidKit.cs" t="Include" />
         <e p="Pixel Font - Tripfive" t="Include">
           <e p="_README.txt" t="Include" />
         </e>
@@ -353,6 +354,7 @@
           <e p="EventCenter.cs" t="Include" />
           <e p="GameRoot.cs" t="Include" />
           <e p="HPBase.cs" t="Include" />
+          <e p="MonoSingelton.cs" t="Include" />
           <e p="SceneManager" t="Include">
             <e p="SceneState.cs" t="Include" />
             <e p="SceneSystem.cs" t="Include" />
