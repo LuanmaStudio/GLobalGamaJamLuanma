@@ -21,7 +21,9 @@ public class CharacterFmodScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        EventCenter.Instance.AddEventListener("PlayerJump", jumpsound);
+        EventCenter.Instance.AddEventListener("PlayerHit", hitsound);
+        EventCenter.Instance.AddEventListener("PlayerHeal", healsound);
     }
 
     // Update is called once per frame
