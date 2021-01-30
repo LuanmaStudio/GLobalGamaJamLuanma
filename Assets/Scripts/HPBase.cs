@@ -1,12 +1,33 @@
 ﻿
+using System;
 using UnityEngine;
 
-class HPBase : MonoBehaviour
+public class HPBase : MonoBehaviour
 {
     public int MaxHp = 1;
 
     private int currentHp;
-    
-    
-    
+
+
+    protected virtual void Death()
+    {
+        print(this.name+" Dead!");
+    }
+
+    public virtual void TakeDamage(int damage,DamageType type)
+    {
+        currentHp -= damage;
+        if (currentHp <= 0)
+        {
+            Death();
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("DeadZone"))
+        {
+            Death();
+        }
+    }
 }
