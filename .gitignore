@@ -58,10 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 fmod_editor.log
 Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
 Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset

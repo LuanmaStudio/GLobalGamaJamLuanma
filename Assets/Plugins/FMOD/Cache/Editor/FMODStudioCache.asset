@@ -43,7 +43,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 8508868451520495987}
+  - {fileID: 1336639885024191544}
   MinDistance: 0
   MaxDistance: 0
   Length: 69333
@@ -186,6 +186,26 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/TitleMusic/TitleMusicLowpass
+  m_EditorClassIdentifier: 
+  Name: TitleMusicLowpass
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-6714586968683558424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BGM/TitleMusicLowpass
   m_EditorClassIdentifier: 
   Name: TitleMusicLowpass
   Min: 0
@@ -469,7 +489,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 637476324848765219
+  lastModified: 637476048625226535
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -878,7 +898,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/System.bank
   Name: System
   StudioPath: bank:/System
-  lastModified: 637476324849313758
+  lastModified: 637475743111206424
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1042,7 +1062,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637476324847388933
+  lastModified: 637476048625031334
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1115,7 +1135,7 @@ MonoBehaviour:
   - {fileID: -128906993826834028}
   StringsBanks:
   - {fileID: 4051383230982580632}
-  stringsBankWriteTime: 637476324847448816
+  stringsBankWriteTime: 637476048625041094
   cacheVersion: 6
 --- !u!114 &25354572215885174
 MonoBehaviour:
@@ -1249,6 +1269,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &1336639885024191544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TitleMusic/TitleMusicLowpass
+  m_EditorClassIdentifier: 
+  Name: TitleMusicLowpass
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1459254106962970409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1333,7 +1373,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637476324848156848
+  lastModified: 637476048625216768
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1605,7 +1645,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637476324847448816
+  lastModified: 637476048625041094
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1631,7 +1671,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6008920075477505225}
+  - {fileID: -6714586968683558424}
   MinDistance: 0
   MaxDistance: 0
   Length: 106666
@@ -1717,7 +1757,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Boss.bank
   Name: Boss
   StudioPath: bank:/Boss
-  lastModified: 637476324846581114
+  lastModified: 637475933408457661
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1759,7 +1799,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Guider.bank
   Name: Guider
   StudioPath: bank:/Guider
-  lastModified: 637476324847199474
+  lastModified: 637475933408467631
   LoadResult: 0
   FileSizes: []
   Exists: 1
