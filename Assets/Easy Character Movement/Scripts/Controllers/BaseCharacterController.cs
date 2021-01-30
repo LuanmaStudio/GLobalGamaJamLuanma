@@ -610,6 +610,9 @@ namespace ECM.Controllers
             // Apply jump impulse
 
             movement.ApplyVerticalImpulse(jumpImpulse);
+            //Smoke
+            Destroy(Instantiate(Resources.Load("Smoke"), transform.position+Vector3.up, Quaternion.identity), .5f);
+
 
             // 'Pause' grounding, allowing character to safely leave the 'ground'
 

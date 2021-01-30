@@ -20,7 +20,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" />
       <option value="$PROJECT_DIR$/Assets/Text/test.txt" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShadowPool.cs" />
@@ -37,6 +36,7 @@
       <option value="$PROJECT_DIR$/Assets/PlayerAttack.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerHp.cs" />
       <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nkAMFOzKvjdE9tZAYddGdjxMME" />
@@ -78,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611923669643</updated>
-      <workItem from="1611923693625" duration="23102000" />
+      <workItem from="1611923693625" duration="23915000" />
     </task>
     <servers />
   </component>
