@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a69a5ccf-8e92-423a-9032-aa019b8af30b" name="Default Changelist" comment="" />
+    <list default="true" id="a69a5ccf-8e92-423a-9032-aa019b8af30b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AllIn1SpriteShader/URP_Import_All1Sh.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/DAWAsset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/DAWProject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/DataFile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/EffectPreset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/Locale.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/MixerView.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/ParameterPreset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/ProfilerSession.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/SandboxScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/Snapshot.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Metadata/VCA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fmod_proj/ggj2021lm/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Character.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Character.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Rabbit.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Rabbit.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/ShadowPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/ShadowPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,21 +59,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShadowSprite.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Controllers/BaseCharacterController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Text/test.txt" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ShadowSprite.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ShadowPool.cs" />
-      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Scripts/Components/CharacterMovement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EventCenter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SingeCaseBase.cs" />
-    </changedPaths>
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Manager/PanelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Base/BasePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/StartManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/UIType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/SettingPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Manager/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/StartPanel.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1nkAMFOzKvjdE9tZAYddGdjxMME" />
   <component name="ProjectViewState">
@@ -32,6 +79,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991708" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30016583" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -43,16 +94,16 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="24320">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="24320" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -66,13 +117,98 @@
       <option name="presentableId" value="Default" />
       <updated>1611923669643</updated>
       <workItem from="1611923693625" duration="9069000" />
+      <workItem from="1611965824620" duration="3332000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611968392496">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611968392496" />
+    <state width="1237" height="231" key="GridCell.Tab.0.bottom" timestamp="1611969160385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160385" />
+    <state width="1237" height="231" key="GridCell.Tab.0.center" timestamp="1611969160385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160385" />
+    <state width="1237" height="231" key="GridCell.Tab.0.left" timestamp="1611969160385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160385" />
+    <state width="1237" height="231" key="GridCell.Tab.0.right" timestamp="1611969160385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160385" />
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1611969160385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160385" />
+    <state width="1237" height="231" key="GridCell.Tab.1.center" timestamp="1611969160385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160385" />
+    <state width="1237" height="231" key="GridCell.Tab.1.left" timestamp="1611969160385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160385" />
+    <state width="1237" height="231" key="GridCell.Tab.1.right" timestamp="1611969160385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160385" />
+    <state width="1237" height="231" key="GridCell.Tab.2.bottom" timestamp="1611969160386">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.2.bottom/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160386" />
+    <state width="1237" height="231" key="GridCell.Tab.2.center" timestamp="1611969160385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.2.center/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160385" />
+    <state width="1237" height="231" key="GridCell.Tab.2.left" timestamp="1611969160385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.2.left/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160385" />
+    <state width="1237" height="231" key="GridCell.Tab.2.right" timestamp="1611969160385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.2.right/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160385" />
+    <state width="1237" height="231" key="GridCell.Tab.3.bottom" timestamp="1611969160386">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.3.bottom/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160386" />
+    <state width="1237" height="231" key="GridCell.Tab.3.center" timestamp="1611969160386">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.3.center/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160386" />
+    <state width="1237" height="231" key="GridCell.Tab.3.left" timestamp="1611969160386">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.3.left/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160386" />
+    <state width="1237" height="231" key="GridCell.Tab.3.right" timestamp="1611969160386">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.3.right/0.0.1280.680/1920.0.1097.577@0.0.1280.680" timestamp="1611969160386" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
