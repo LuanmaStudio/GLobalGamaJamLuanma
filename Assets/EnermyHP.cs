@@ -16,6 +16,7 @@ public class EnermyHP : HPBase
 
     protected override void Death()
     {
+        Destroy(Instantiate(Resources.Load<GameObject>("Blood"), transform.position, Quaternion.Euler(90,0,0)),3f);
         Destroy(gameObject);
     }
 }
