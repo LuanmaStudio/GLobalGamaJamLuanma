@@ -23,30 +23,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &-8091588234210776822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/BGM
-  m_EditorClassIdentifier: 
-  Path: event:/Music/BGM
-  guid: 5cbc568120fc744cae957fbcbcaef9da
-  Banks:
-  - {fileID: 1853437472750795232}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 7648506784594874648}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 106666
 --- !u!114 &-7946101121962119418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,7 +43,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 5596780199514745113}
+  - {fileID: 2567430909888264950}
   MinDistance: 0
   MaxDistance: 0
   Length: 69333
@@ -342,29 +318,6 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
---- !u!114 &-5013576006613104113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/caiguai
-  m_EditorClassIdentifier: 
-  Path: event:/Player/caiguai
-  guid: 06d1f307b436264f8b71a9fd11cd723b
-  Banks:
-  - {fileID: -4243800966965637430}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-4664285121404274625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -473,7 +426,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 637476276588316281
+  lastModified: 637476197662604489
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -819,7 +772,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/System.bank
   Name: System
   StudioPath: bank:/System
-  lastModified: 637476276588625481
+  lastModified: 637476084601358757
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -983,7 +936,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637476276587219219
+  lastModified: 637476197662514465
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1048,15 +1001,12 @@ MonoBehaviour:
   - {fileID: 224430586819553333}
   - {fileID: 4800827777032896611}
   - {fileID: -7364891445560743014}
-  - {fileID: -8091588234210776822}
-  - {fileID: -5013576006613104113}
-  - {fileID: 7389996662136024815}
   EditorParameters: []
   MasterBanks:
   - {fileID: -128906993826834028}
   StringsBanks:
   - {fileID: 4051383230982580632}
-  stringsBankWriteTime: 637476276587269139
+  stringsBankWriteTime: 637476197662524548
   cacheVersion: 6
 --- !u!114 &25354572215885174
 MonoBehaviour:
@@ -1234,7 +1184,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637476276587787705
+  lastModified: 637476197662594254
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1275,6 +1225,26 @@ MonoBehaviour:
   lastModified: 637476191263252702
   LoadResult: 0
   FileSizes: []
+  Exists: 1
+--- !u!114 &2567430909888264950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TitleMusic/TitleMusicLowpass
+  m_EditorClassIdentifier: 
+  Name: TitleMusicLowpass
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &2847811379779950248
 MonoBehaviour:
@@ -1380,7 +1350,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 0
+  Exists: 1
 --- !u!114 &3438016775106696509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1486,11 +1456,11 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637476276587269139
+  lastModified: 637476197662524548
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 2036
+    Value: 1918
   Exists: 1
 --- !u!114 &4171656362708203300
 MonoBehaviour:
@@ -1574,7 +1544,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Boss.bank
   Name: Boss
   StudioPath: bank:/Boss
-  lastModified: 637476276586376380
+  lastModified: 637476197662484557
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1616,7 +1586,7 @@ MonoBehaviour:
   Path: Assets/fmod_asset/Desktop/Guider.bank
   Name: Guider
   StudioPath: bank:/Guider
-  lastModified: 637476276587079599
+  lastModified: 637476197662504575
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1662,26 +1632,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &5596780199514745113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/TitleMusic/TitleMusicLowpass
-  m_EditorClassIdentifier: 
-  Name: TitleMusicLowpass
-  Min: 0
-  Max: 1
-  Default: 1
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
 --- !u!114 &6263751355353250755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1748,29 +1698,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 69333
---- !u!114 &7389996662136024815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/dead
-  m_EditorClassIdentifier: 
-  Path: event:/Player/dead
-  guid: cdb65680cbafe34da80a480f7bc35de3
-  Banks:
-  - {fileID: -4243800966965637430}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &7425642104777866675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1814,26 +1741,6 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1918
-  Exists: 1
---- !u!114 &7648506784594874648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/BGM/TitleMusicLowpass
-  m_EditorClassIdentifier: 
-  Name: TitleMusicLowpass
-  Min: 0
-  Max: 1
-  Default: 1
-  ID:
-    data1: 0
-    data2: 0
   Exists: 1
 --- !u!114 &8151570039318154278
 MonoBehaviour:
