@@ -611,7 +611,9 @@ namespace ECM.Controllers
 
             movement.ApplyVerticalImpulse(jumpImpulse);
             //Smoke
-            Destroy(Instantiate(Resources.Load("Smoke"), transform.position+Vector3.up, Quaternion.identity), .5f);
+            
+            EventCenter.Instance.EventTrigger("PlayerJump");
+            
 
 
             // 'Pause' grounding, allowing character to safely leave the 'ground'
