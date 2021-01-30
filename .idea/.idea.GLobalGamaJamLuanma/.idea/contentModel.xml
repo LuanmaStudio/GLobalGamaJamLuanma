@@ -210,6 +210,7 @@
           </e>
         </e>
         <e p="EnermyHP.cs" t="Include" />
+        <e p="EnermyTouchAttack.cs" t="Include" />
         <e p="EnermyWalk.cs" t="Include" />
         <e p="HealthHeartSystem" t="Include">
           <e p="readme.txt" t="Include" />

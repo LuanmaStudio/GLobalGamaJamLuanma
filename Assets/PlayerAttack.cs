@@ -29,7 +29,6 @@ public class PlayerAttack : MonoBehaviour
                 if (item.CompareTag("Enermy"))
                 {
                     item.GetComponent<HPBase>().TakeDamage(1,DamageType.Kick);
-                    StartCoroutine(Inmmute(0.1f));
                 }
             }
             return;
