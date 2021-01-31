@@ -48,6 +48,7 @@
           </e>
         </e>
         <e p="BeginBroken.cs" t="Include" />
+        <e p="Bullet.cs" t="Include" />
         <e p="Demigiant" t="Include">
           <e p="DemiLib" t="Include">
             <e p="Core" t="Include">
@@ -215,6 +216,7 @@
             </e>
           </e>
         </e>
+        <e p="EnermyShoot.cs" t="Include" />
         <e p="HealthHeartSystem" t="Include">
           <e p="readme.txt" t="Include" />
           <e p="Scripts" t="Include">

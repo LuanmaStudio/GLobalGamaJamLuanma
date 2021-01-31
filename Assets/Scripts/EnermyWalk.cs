@@ -18,7 +18,7 @@ public class EnermyWalk : MonoBehaviour
     void FixedUpdate()
     {
         Ray ray = new Ray(transform.GetChild(0).position, Vector3.down);
-        if (Physics.Raycast(ray, 3))
+        if (Physics.Raycast(ray, 3)&& Physics.OverlapBox(transform.GetChild(0).position,Vector3.one*0.1f,Quaternion.identity).Length==0)
         {
             _rigidbody.velocity = (Vector3)dir * Speed;
             _rigidbody.velocity += Vector3.down * 9;
