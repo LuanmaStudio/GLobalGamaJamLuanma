@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEditor;
 
 public class SettingPanel : BasePanel
 {
@@ -19,8 +19,6 @@ public class SettingPanel : BasePanel
         });
         UITool.GetOrAddComponentInChildren<Button>("ExitGame").onClick.AddListener(() =>
         {
-            //点击事件
-            UnityEditor.EditorApplication.isPlaying = false;
             Application.Quit(); //退出游戏
         });
         UITool.GetOrAddComponentInChildren<Button>("Change").onClick.AddListener(() =>

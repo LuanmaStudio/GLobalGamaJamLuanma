@@ -11,10 +11,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AD0D711E-88AD-4A3E-9BFE-388F4C259D28/1f/cc3f13d6/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HPSilider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Restart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Teleport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PLayerAperance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EnermyShoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShadowSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BeginBroken.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -49,6 +52,11 @@
       <option value="$PROJECT_DIR$/Assets/Restart.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHp.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/SettingPanel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MidKit.cs" />
+      <option value="$PROJECT_DIR$/Assets/EnermyShoot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Bullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnermyWalk.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nkAMFOzKvjdE9tZAYddGdjxMME" />
