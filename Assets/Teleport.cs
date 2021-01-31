@@ -14,4 +14,10 @@ public class Teleport : MonoBehaviour
             other.transform.position = target.position;
         }
     }
+
+    public void Teleprot()
+    {
+        GameObject.FindWithTag("Player").transform.position = target.position;
+        transform.parent.gameObject.SetActive(false);
+    }
 }

@@ -11,6 +11,8 @@ namespace ECM.Examples
     public class CharacterController2D : BaseCharacterController
     {
 
+        public static bool CanDash = true;
+
         private Animator _animator;
 
         public float DashInterval = 1f;
@@ -23,6 +25,8 @@ namespace ECM.Examples
             _animator = GetComponentInChildren<Animator>();
             EventCenter.Instance.AddEventListener("PlayerJump",Smoke);
             EventCenter.Instance.AddEventListener("PlayerLand",Smoke);
+            EventCenter.Instance.AddEventListener("BeginBroken", ()=>CanDash = false);
+            EventCenter.Instance.AddEventListener("BeginBroken", ()=>maxMidAirJumps = 0);
         }
         /// <summary>
         /// Overrides BaseCharacterController Animate method.
@@ -114,7 +118,7 @@ namespace ECM.Examples
 
             if (Time.time > LastTime)
             {
-                if (Input.GetKeyDown(KeyCode.LeftShift))
+                if (Input.GetKeyDown(KeyCode.LeftShift) && CanDash)
                 {
                     movement.Dash();
                     LastTime = Time.time + DashInterval;

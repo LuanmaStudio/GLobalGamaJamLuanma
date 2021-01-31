@@ -16,6 +16,8 @@ public class Dialog : MonoBehaviour, IRestart
     
     public float waitTime = 0.2f;
 
+    public GameObject StartPannel;
+
     public static Dialog instance { get; private set; }
 
     private Text dialogBox;
@@ -45,6 +47,7 @@ public class Dialog : MonoBehaviour, IRestart
         //注册方法模板第一次参数:在Lua里叫的函数名,最后一个参数填C#里函数名
         lua.RegisterFunction("w", this, GetType().GetMethod("WaitForWhile"));
         lua.RegisterFunction("print", this, GetType().GetMethod("LPrint"));
+        lua.RegisterFunction("start", this, GetType().GetMethod("ShowStartPannel"));
         lua.LoadCLRPackage();
         
         buffer = WordsAnalyze.ClipLine(file.text);
@@ -130,6 +133,11 @@ public class Dialog : MonoBehaviour, IRestart
         file = textAsset;
         enabled = true;
         gameObject.SetActive(true);
+    }
+
+    public void ShowStartPannel()
+    {
+        StartPannel.SetActive(true);
     }
 
 

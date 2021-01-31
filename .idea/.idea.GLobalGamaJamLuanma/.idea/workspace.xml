@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a69a5ccf-8e92-423a-9032-aa019b8af30b" name="Default Changelist" comment="" />
+    <list default="true" id="a69a5ccf-8e92-423a-9032-aa019b8af30b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GLobalGamaJamLuanma/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enermy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enermy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Panel/StartPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Panel/StartPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/StartPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/StartPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Text/阶段二.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Text/阶段二.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,12 +28,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AD0D711E-88AD-4A3E-9BFE-388F4C259D28/1f/cc3f13d6/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HPSilider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ObtainSelf.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Restart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AD0D711E-88AD-4A3E-9BFE-388F4C259D28/1f/cc3f13d6/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Teleport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PLayerAperance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoadScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HPSilider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnermyShoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShadowSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BeginBroken.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,22 +60,27 @@
       <option value="$PROJECT_DIR$/Assets/Teleport.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MonoSingelton.cs" />
       <option value="$PROJECT_DIR$/Assets/PLayerAperance.cs" />
-      <option value="$PROJECT_DIR$/Assets/Text/阶段二.txt" />
       <option value="$PROJECT_DIR$/Assets/BeginBroken.cs" />
       <option value="$PROJECT_DIR$/Assets/HPSilider.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HPBase.cs" />
-      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnermyHP.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ReloadManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EventCenter.cs" />
       <option value="$PROJECT_DIR$/Assets/Restart.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHp.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/SettingPanel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MidKit.cs" />
       <option value="$PROJECT_DIR$/Assets/EnermyShoot.cs" />
       <option value="$PROJECT_DIR$/Assets/Bullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnermyWalk.cs" />
+      <option value="$PROJECT_DIR$/Assets/StartPannel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIFrame/Concrete/StartPanel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Text/阶段二.txt" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAttack.cs" />
+      <option value="$PROJECT_DIR$/Assets/Easy Character Movement/Examples/Scripts/Controllers/CharacterController2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/ObtainSelf.cs" />
+      <option value="$PROJECT_DIR$/Assets/LoadScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nkAMFOzKvjdE9tZAYddGdjxMME" />
@@ -99,11 +123,23 @@
       <option name="presentableId" value="Default" />
       <updated>1611923669643</updated>
       <workItem from="1611923693625" duration="28716000" />
+      <workItem from="1612058952984" duration="5654000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

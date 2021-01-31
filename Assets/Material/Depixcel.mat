@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player
+  m_Name: Depixcel
   m_Shader: {fileID: 4800000, guid: a36b7719ff0465b42ab1407d67672c5f, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA PIXELATE_ON
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA HOLOGRAM_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -128,8 +128,8 @@ Material:
     - _FlickerPercent: 0.05
     - _GhostColorBoost: 1
     - _GhostTransparency: 0
-    - _GlitchAmount: 3
-    - _GlitchSize: 1
+    - _GlitchAmount: 2.55
+    - _GlitchSize: 2.24
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -183,7 +183,7 @@ Material:
     - _OutlineDistortTexXSpeed: 5
     - _OutlineDistortTexYSpeed: 5
     - _OutlineDistortToggle: 0
-    - _OutlineGlow: 1.5
+    - _OutlineGlow: 1
     - _OutlineIsPixel: 0
     - _OutlinePixelWidth: 1
     - _OutlineTexGrey: 0
@@ -193,7 +193,7 @@ Material:
     - _OutlineWidth: 0.004
     - _Parallax: 0.02
     - _PinchUvAmount: 0.35
-    - _PixelateSize: 256
+    - _PixelateSize: 4
     - _PosterizeGamma: 0.75
     - _PosterizeNumColors: 8
     - _PosterizeOutline: 0
@@ -239,7 +239,7 @@ Material:
     - _ColorSwapRed: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FadeBurnColor: {r: 1, g: 1, b: 0, a: 1}
-    - _GlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 0.9245283, g: 0.02180491, b: 0.02180491, a: 1}
     - _GradBotLeftCol: {r: 0, g: 0, b: 1, a: 1}
     - _GradBotRightCol: {r: 0, g: 0, b: 1, a: 1}
     - _GradTopLeftCol: {r: 1, g: 0, b: 0, a: 1}
@@ -248,6 +248,6 @@ Material:
     - _HitEffectColor: {r: 1, g: 1, b: 1, a: 1}
     - _HologramStripeColor: {r: 0, g: 1, b: 1, a: 1}
     - _InnerOutlineColor: {r: 1, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0.9882878, g: 1, b: 0, a: 1}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShineColor: {r: 1, g: 1, b: 1, a: 1}

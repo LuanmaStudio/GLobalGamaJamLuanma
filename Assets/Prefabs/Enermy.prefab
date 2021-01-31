@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3714521b120178949a8031dc4ce17b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHp: 1
+  maxHp: 1
   currentHp: 0
 --- !u!95 &2008413290882229907
 Animator:
@@ -148,7 +148,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9579b396f2b1a0942945091b0e08479f, type: 2}
+  - {fileID: 2100000, guid: 9b2976ad32e164c43b18202afd884212, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

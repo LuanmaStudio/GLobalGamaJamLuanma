@@ -8,7 +8,7 @@ using UnityEngine.UI;
 /// </summary>
 public class StartPanel : BasePanel
 {
-    private static readonly string path = "Prefabs/UI/Panel/StartPanel";
+    public static readonly string path = "Prefabs/UI/Panel/StartPanel";
     
     public StartPanel() : base(new UIType(path)){ }
 
