@@ -227,6 +227,8 @@
         </e>
         <e p="HPSilider.cs" t="Include" />
         <e p="LoadScene.cs" t="Include" />
+        <e p="ObtainDash.cs" t="Include" />
+        <e p="ObtainDoubleJump.cs" t="Include" />
         <e p="ObtainSelf.cs" t="Include" />
         <e p="Pixel Font - Tripfive" t="Include">
           <e p="_README.txt" t="Include" />
@@ -406,6 +408,7 @@
             </e>
           </e>
         </e>
+        <e p="Success.cs" t="Include" />
         <e p="Teleport.cs" t="Include" />
         <e p="Text" t="Include">
           <e p="阶段二.txt" t="Include" />

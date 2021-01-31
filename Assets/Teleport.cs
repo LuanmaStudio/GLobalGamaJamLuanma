@@ -19,5 +19,6 @@ public class Teleport : MonoBehaviour
     {
         GameObject.FindWithTag("Player").transform.position = target.position;
         transform.parent.gameObject.SetActive(false);
+        GameObject.Find("SpawnPoint").transform.position = target.position;
     }
 }
