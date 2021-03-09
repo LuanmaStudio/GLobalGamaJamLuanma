@@ -1,3 +1,2 @@
 # GLobalGamaJamLuanma
-GameJamRush
-# GlobalGameJam48小时极限开发作品
+GlobalGameJam48小时极限开发作品
